@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>KeepScreenOn.Program</StartupObject>
+    <ApplicationIcon>KeepScreenOn.ico</ApplicationIcon>
+    <Title>$(AssemblyName)</Title>
+    <Authors>LonelyAtom</Authors>
+    <Copyright>$(Authors)</Copyright>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="KeepScreenOn.ico" />
+  </ItemGroup>
+
+</Project>

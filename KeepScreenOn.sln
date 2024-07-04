@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeepScreenOn", "KeepScreenOn\KeepScreenOn.csproj", "{96FF8CAB-B039-48D2-9A5D-BE10663896FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{A809342F-B38A-4694-A987-C17891F7510C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96FF8CAB-B039-48D2-9A5D-BE10663896FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FF8CAB-B039-48D2-9A5D-BE10663896FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FF8CAB-B039-48D2-9A5D-BE10663896FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FF8CAB-B039-48D2-9A5D-BE10663896FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8047142-AC32-45D1-A8CB-BA2FC0781FBA}
+	EndGlobalSection
+EndGlobal
