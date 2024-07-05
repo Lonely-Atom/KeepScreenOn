@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Utils
+namespace KeepScreenOn.Utils
 {
     public class KeysPressHelper
     {

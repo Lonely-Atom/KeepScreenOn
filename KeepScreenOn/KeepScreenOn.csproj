@@ -7,6 +7,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <StartupObject>KeepScreenOn.Program</StartupObject>
+    <AssemblyTitle>防止屏幕锁定小工具</AssemblyTitle>
     <ApplicationIcon>KeepScreenOn.ico</ApplicationIcon>
     <Title>$(AssemblyName)</Title>
     <Authors>LonelyAtom</Authors>
@@ -16,6 +17,18 @@
 
   <ItemGroup>
     <Content Include="KeepScreenOn.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
