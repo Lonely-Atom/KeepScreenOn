@@ -12,7 +12,7 @@
     <Title>$(AssemblyName)</Title>
     <Authors>LonelyAtom</Authors>
     <Copyright>$(Authors)</Copyright>
-    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
