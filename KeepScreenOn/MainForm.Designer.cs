@@ -1,4 +1,6 @@
-﻿namespace KeepScreenOn
+﻿using KeepScreenOn.Utils;
+
+namespace KeepScreenOn
 {
     partial class MainForm
     {
@@ -59,7 +61,7 @@
             // timer
             // 
             timer.Enabled = true;
-            timer.Interval = 1000;
+            timer.Interval = ConfigHelper.Instance.AppConfig.Configs.PressKeyInterval;
             timer.Tick += Timer_Tick;
             // 
             // contextMenuStrip

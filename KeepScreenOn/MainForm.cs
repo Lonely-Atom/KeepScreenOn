@@ -67,7 +67,7 @@ namespace KeepScreenOn
         private void Timer_Tick(object sender, EventArgs e)
         {
             if (tsmiKeepScreenOn.Checked)
-                KeysPressHelper.PressControlKey();
+                KeysPressHelper.PressScrollKey();
         }
 
         private void TsmiKeepScreenOnClick(object sender, EventArgs e)

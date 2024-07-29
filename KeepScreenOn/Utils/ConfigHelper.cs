@@ -37,6 +37,7 @@ namespace KeepScreenOn.Utils
         public bool AutoKeepScreenOn { get; set; } = false;
         public bool AutoStart { get; set; } = false;
         public bool CloseNotice { get; set; } = false;
+        public int PressKeyInterval { get; set; } = 60 * 1000;
     }
 
     public class HotkeysModel
