@@ -200,7 +200,7 @@ namespace KeepScreenOn
             sb_msg.AppendLine("【重要说明】：");
             sb_msg.AppendLine("    1. 此软件无窗口，运行后将自动收到任务栏托盘中。");
             sb_msg.AppendLine("    2. 此软件适用于Windows系统设置中锁屏睡眠等相关功能由组织管理员控制，无法自行修改的场景。");
-            sb_msg.AppendLine("    3. 启用后默认通过每隔30秒自动按下Ctrl键来保持屏幕不锁定。\n");
+            sb_msg.AppendLine("    3. 启用后默认通过每隔60秒自动按下Scroll键来保持屏幕不锁定。\n");
 
             sb_msg.AppendLine("【快捷键】（可在 appsettings.json 文件中修改）：");
             sb_msg.AppendLine($"    1. 防止屏幕锁定：【{ConfigHelper.Instance.AppConfig.Hotkeys.KeepScreenOn}】\n");
